@@ -1,0 +1,379 @@
+@font-face {
+	font-family: 'Futura PT Book';
+	src: url('../fonts/FuturaPT-Book.woff2') format('woff2'),
+			url('../fonts/FuturaPT-Book.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Gilroy';
+	src: url('../fonts/Gilroy-Regular.woff2') format('woff2'),
+			url('../fonts/Gilroy-Regular.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Gilroy';
+	src: url('../fonts/Gilroy-Medium.woff2') format('woff2'),
+			url('../fonts/Gilroy-Medium.woff') format('woff');
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Gilroy';
+	src: url('../fonts/Gilroy-Semibold.woff2') format('woff2'),
+			url('../fonts/Gilroy-Semibold.woff') format('woff');
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Gilroy';
+	src: url('../fonts/Gilroy-Bold.woff2') format('woff2'),
+			url('../fonts/Gilroy-Bold.woff') format('woff');
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Gilroy';
+	src: url('../fonts/Gilroy-Heavy.woff2') format('woff2'),
+			url('../fonts/Gilroy-Heavy.woff') format('woff');
+	font-weight: 800;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Gilroy';
+	src: url('../fonts/Gilroy-Black.woff2') format('woff2'),
+			url('../fonts/Gilroy-Black.woff') format('woff');
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+
+/* Обнуляющий стиль */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+ol li,
+ul li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+body {
+	font-size: 14px;
+	line-height: 1;
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+/* ---------------------------- */
+*:focus{
+	outline-color: #E88952;
+}
+
+.container {
+	max-width: 1140px;
+	margin: 0 auto;
+}
+
+body {
+	font-family: 'Gilroy', Arial, Helvetica, sans-serif;	
+}
+
+.wrapper {
+	background: url("../img/line-bg.png") right 0 no-repeat;
+}
+
+
+.hero {
+	min-height: 708px;
+	position: relative;
+}
+
+.header {
+	padding: 22px 0px 0px 0px;
+}
+
+.firstline {
+	margin: 0px 0px 36px 0px;
+}
+
+.logo{
+	display: inline-block;
+	font-weight: 700;
+	font-size: 52px;
+	margin: 0px 2% 0px 0px;
+	vertical-align: top;
+}
+
+.logo a{
+	color: #E1E1E1;
+}
+
+.fullname {
+	display: inline-block;
+	max-width: 20%;
+	border-left: 2px solid #89AFEF;
+	padding: 0px 0px 0px 25px;
+	line-height: 1.25;
+	margin: 8px 60px 0px 0px;
+}
+
+.socialslist {
+	margin: 13px 85px 0px 0px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.socialsitem {
+	display: inline-block;
+	margin: 0px 15px 0px 0px;
+}
+
+.round {
+	display: inline-block;
+	width: 43px;
+	height: 43px;
+	border-radius: 50%;
+}
+
+.r1 {
+	background-color: #2DD038;
+	box-shadow: 0px 8px 25px rgba(45, 208, 56, 0.497678);
+}
+
+.r1:hover {
+	background-color: #27b831;
+	box-shadow: 0px 8px 15px rgba(45, 208, 56, 0.497678);
+}
+
+.r2 {
+	background-color: #7B519D;
+	box-shadow: 0px 8px 25px rgba(123, 81, 157, 0.503797);
+}
+
+.r2:hover {
+	background-color: #6d488b;
+	box-shadow: 0px 8px 15px rgba(123, 81, 157, 0.503797);
+}
+
+.r3 {
+	background-color: #5BBAF0;
+	box-shadow: 0px 8px 25px rgba(91, 186, 240, 0.5);
+}
+
+.r3:hover {
+	background-color: #50a2d1;
+	box-shadow: 0px 8px 15px rgba(91, 186, 240, 0.5);
+}
+
+.imagebox {
+	padding: 12px 0px 0px 12px;
+}
+
+.contacts {
+	display: inline-block;
+	vertical-align: top;
+	margin: 8px 25px 0px 0px;
+	text-align: right;
+	color: #333; 
+}
+
+.phone {
+	font-weight: 700;
+	font-size: 20px;
+	margin: -5px 0px 8px 0px;
+}
+
+.phone a{
+	text-decoration: none;
+	color: #333;
+}
+
+.phone a:hover {
+	color: #E88952;
+}
+
+.phone::before {
+	content: "";
+	background: url("../img/phone-icon.png") 0 0 no-repeat;
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	margin: 6px 9px 0px 0px;
+}
+
+.email {
+	font-weight: 500;
+	font-size: 17px;
+	padding: 0px 2px 0px 0px;
+	margin: -4px 0px 0px 0px;
+}
+
+.email a {
+	text-decoration: none;
+	color: #333;
+}
+
+.email a:hover {
+	color: #E88952;
+}
+
+.email::before {
+	content: "";
+	background: url("../img/male-icon.png") 0 0 no-repeat;
+	width: 16px;
+	height: 12px;
+	display: inline-block;
+	margin: 6px 9px 0px 0px;
+}
+
+.ordercallbtn {
+	display: inline-block;
+	vertical-align: top;
+	margin: 9px 0px 0px 0px;
+	color: #fff;
+	font-weight: 600;
+	font-size: 18px;
+	padding: 13px 27px;
+	border-radius: 3px;
+	box-shadow: 0px 8px 18px rgba(242, 147, 81, 0.450503);
+	background: linear-gradient(90deg, #F6BD60 0%, #E88952 100%);
+}
+
+.ordercallbtn:hover {
+	box-shadow: 0px 8px 8px rgba(242, 147, 81, 0.450503);
+	background: linear-gradient(90deg, #e4ae58 0%, #cf7948 100%);
+}
+
+.ordercallbtn:focus {
+	box-shadow: 0px 8px 8px rgba(242, 147, 81, 0.450503);
+	background: linear-gradient(90deg, #32ec3e 0%, #26b62f 100%);
+}
+
+.secondline {
+	margin: 0px 0px 109px 0px;
+}
+
+.offersitem {
+	display: inline-block;
+	font-weight: 500;
+	font-size: 16px;
+	text-transform: uppercase;
+	margin: 0px 48px 0px 0px;
+}
+
+.offersitem a {
+	text-decoration: none;
+	color: #333;
+}
+
+.offersitem a:hover {
+	text-decoration: underline;
+	color: #E88952;
+}
+
+.offersitem:last-child {
+	margin: 0px 0px 0px 0px;	
+}
+
+.offersitem:nth-child(2) {
+	margin: 0px 57px 0px 0px;
+}
+
+.offersitem:nth-child(3) {
+	margin: 0px 55px 0px 0px;
+}
+
+.offersitem:nth-child(4) {
+	margin: 0px 54px 0px 0px;
+}
+
+.offersitem:nth-child(5) {
+	margin: 0px 50px 0px 0px;
+}
+
+.main {
+	max-width: 60%;
+	z-index: 1;
+}
+
+.title {
+	font-weight: 900;
+	font-size: 40px;
+	line-height: 51px;
+	margin: 0px 0px 30px 0px;
+}
+
+.coast {
+	font-weight: 500;
+	font-size: 24px;
+	margin: 0px 0px 41px 0px;
+}
+
+.boldspantext {
+	font-weight: 900;
+	font-size: 24px;
+}
+
+.toorder {
+	font-weight: 700;
+	font-size: 16px;
+	display: inline-block;
+	color: #fff;
+	padding: 18px 67px;
+	background: linear-gradient(90deg, #87AFF1 0%, #6C80CB 100%, #6C80CB 100%);
+	box-shadow: 0px 12px 20px rgba(132, 170, 237, 0.454846);
+	border-radius: 3px;
+	text-transform: uppercase;
+}
+
+.toorder:hover {
+	box-shadow: 0px 12px 10px rgba(132, 170, 237, 0.454846);
+	background: linear-gradient(90deg, #779bd4 0%, #6477bb 100%, #6274b8 100%);
+} 
+
+.toorder:focus {
+	background: linear-gradient(90deg, #32ec3e 0%, #26b62f 100%);
+} 
+
+.workman {
+	position: absolute;
+	bottom: -7px;
+	right: 24%;
+}
